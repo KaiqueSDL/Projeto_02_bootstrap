@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+.header {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("https://conteudo.imguol.com.br/c/entretenimento/21/2021/01/13/the-one-e-anunciada-como-a-maior-mansao-do-mundo-e-podera-ser-a-mais-cara-ja-vendida-na-america-1610544079895_v2_4x3.jpg");
+
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .icon-home{
+    
+    margin-left: 100px;
+  }
+  .logo{
+    font-size:  30px;
+    margin-left: 6px;
+  }
+
+  .meio {
+    height: 80vh;
+    width: 80%; 
+    display: flex;
+    justify-content: start; 
+       align-items: center;
+  }
+  .meio h1 {
+    margin-left: 120px;
+   
+    font-size: 60px;
+  }
+
+
+  :root {
+    --cor_principal: #e6b30e;
+  }
+  .ativo,
+  .navbar ul li a:hover {
+    color: var(--cor_principal) !important;
+    border-bottom: 2px solid var(--cor_principal);
+  }
+  .tema  {
+    color: var(--cor_principal) !important;
+  }
+  
+  svg.wave {
+    position: absolute;
+    bottom: -100px;
+  }
